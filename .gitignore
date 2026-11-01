@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+/artifacts/
+*.dll
+*.exe
+*.pdb
+*.log
+__pycache__/

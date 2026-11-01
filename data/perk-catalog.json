@@ -1,0 +1,306 @@
+[
+  {
+    "id": 0,
+    "beast": "Lion",
+    "tier": 1,
+    "name": "Proud Lion",
+    "description": "Posing to a wild crowd after kills gives allies a damage and speed boost",
+    "details": [
+      "Damage: +40%.",
+      "Movement speed: +20%.",
+      "Duration: 10 seconds.",
+      "Applies to you and all allies.",
+      "Trigger: Pose after kills while your crowd is wild."
+    ],
+    "sourceTerm": "Skills/Beast_Lion_Lv1_Desc"
+  },
+  {
+    "id": 1,
+    "beast": "Lion",
+    "tier": 2,
+    "name": "Regal Lion",
+    "description": "Posing to a wild crowd after kills makes them throw  [Coin] ",
+    "details": [
+      "Each successful pose adds 2 coins to your crowd-money queue.",
+      "The queue is metered using a 10-second boost timer; a small queue can empty sooner."
+    ],
+    "sourceTerm": "Skills/Beast_Lion_Lv2_Desc"
+  },
+  {
+    "id": 2,
+    "beast": "Lion",
+    "tier": 3,
+    "name": "Hoarding Lion",
+    "description": "Posing to a wild crowd after kills makes them throw weapons",
+    "details": [
+      "One weapon-assistance request per successful pose.",
+      "The weapon is chosen randomly."
+    ],
+    "sourceTerm": "Skills/Beast_Lion_Lv3_Desc"
+  },
+  {
+    "id": 3,
+    "beast": "Eagle",
+    "tier": 1,
+    "name": "Lethal Eagle",
+    "description": "Powerful throw after melee kills",
+    "details": [
+      "Next throw: double direct-impact damage.",
+      "Ready window: 8 seconds after a melee kill.",
+      "Consumed when the projectile launches, even if it misses.",
+      "The bonus is not established for explosion damage."
+    ],
+    "sourceTerm": "Skills/Beast_Eagle_Lv1_Desc"
+  },
+  {
+    "id": 4,
+    "beast": "Eagle",
+    "tier": 2,
+    "name": "Silent Eagle",
+    "description": "Powerful throw after backstabs",
+    "details": [
+      "Next throw: double direct-impact damage.",
+      "Ready window: 8 seconds after a backstab.",
+      "Consumed when the projectile launches, even if it misses.",
+      "Explosion damage has no confirmed bonus from this effect."
+    ],
+    "sourceTerm": "Skills/Beast_Eagle_Lv2_Desc"
+  },
+  {
+    "id": 5,
+    "beast": "Eagle",
+    "tier": 3,
+    "name": "Patient Eagle",
+    "description": "Powerful throw after blocking",
+    "details": [
+      "Next throw: double direct-impact damage.",
+      "Ready window: 8 seconds after a successful block.",
+      "Consumed when the projectile launches, even if it misses.",
+      "Explosion damage has no confirmed bonus from this effect."
+    ],
+    "sourceTerm": "Skills/Beast_Eagle_Lv3_Desc"
+  },
+  {
+    "id": 6,
+    "beast": "Bear",
+    "tier": 1,
+    "name": "Hulking Bear",
+    "description": "More health, less movement speed. Brief invulnerability and fury on taking damage",
+    "details": [
+      "Base health: +25% (60 becomes 75 before other modifiers).",
+      "Movement speed: -20%.",
+      "Taking damage grants 1.75 seconds of invulnerability and base Fury.",
+      "Fury duration bonuses can extend the Fury."
+    ],
+    "sourceTerm": "Skills/Beast_Bear_Lv1_Desc"
+  },
+  {
+    "id": 7,
+    "beast": "Bear",
+    "tier": 2,
+    "name": "Mighty Bear",
+    "description": "More health, less movement speed. Attacks with blunt weapons deal 20% more damage and briefly stun",
+    "details": [
+      "Base health: +25% (60 becomes 75 before other modifiers).",
+      "Movement speed: -20%.",
+      "Blunt weapons: +20% damage.",
+      "Blunt melee hits: minimum 0.3-second base stun.",
+      "Longer existing stuns are preserved; other stun modifiers still apply."
+    ],
+    "sourceTerm": "Skills/Beast_Bear_Lv2_Desc"
+  },
+  {
+    "id": 8,
+    "beast": "Bear",
+    "tier": 3,
+    "name": "Vengeful Bear",
+    "description": "More health, less movement speed. Upon dying, revive with 10% health and permanent fury",
+    "details": [
+      "Base health: +25% (60 becomes 75 before other modifiers).",
+      "Movement speed: -20%.",
+      "The revival restores 10% health and grants permanent Fury."
+    ],
+    "sourceTerm": "Skills/Beast_Bear_Lv3_Desc"
+  },
+  {
+    "id": 9,
+    "beast": "Panther",
+    "tier": 1,
+    "name": "Deadly Panther",
+    "description": "More damage, less health. +50% special attack damage",
+    "details": [
+      "Attack damage: +25%.",
+      "Base health: -25% (60 becomes 45 before other modifiers).",
+      "Special attacks multiply damage by another 1.5x."
+    ],
+    "sourceTerm": "Skills/Beast_Panther_Lv1_Desc"
+  },
+  {
+    "id": 10,
+    "beast": "Panther",
+    "tier": 2,
+    "name": "Pouncing Panther",
+    "description": "More damage, less health. Dodge becomes a tripping Pounce",
+    "details": [
+      "Attack damage: +25%.",
+      "Base health: -25% (60 becomes 45 before other modifiers).",
+      "Base pounce duration: 0.55 seconds (ordinary roll: 0.75 seconds)."
+    ],
+    "sourceTerm": "Skills/Beast_Panther_Lv2_Desc"
+  },
+  {
+    "id": 11,
+    "beast": "Panther",
+    "tier": 3,
+    "name": "Unrelenting Panther",
+    "description": "More damage, less health. Consecutive hits on one enemy increases damage",
+    "details": [
+      "Attack damage: +25%.",
+      "Base health: -25% (60 becomes 45 before other modifiers).",
+      "Repeat-hit bonus: +12.5% per consecutive hit after the first, up to +50%.",
+      "Changing targets resets this bonus."
+    ],
+    "sourceTerm": "Skills/Beast_Panther_Lv3_Desc"
+  },
+  {
+    "id": 12,
+    "beast": "Wolf",
+    "tier": 1,
+    "name": "Ferocious Wolf",
+    "description": "More dismemberments. Deal +200% damage with enemy body parts",
+    "details": [
+      "Eligible fatal hits can receive an extra dismemberment roll, up to 20%.",
+      "The extra chance decreases in later waves; normal dismemberment rules still apply.",
+      "Enemy body-part attack damage: x3 (+200%)."
+    ],
+    "sourceTerm": "Skills/Beast_Wolf_Lv1_Desc"
+  },
+  {
+    "id": 13,
+    "beast": "Wolf",
+    "tier": 2,
+    "name": "Bone Collector Wolf",
+    "description": "More dismemberments. Earn  [Coin]  when picking up body parts",
+    "details": [
+      "Body-part pickup: +4 coins.",
+      "Eligible fatal hits can receive an extra dismemberment roll, up to 20%.",
+      "The extra chance decreases in later waves; normal dismemberment rules still apply."
+    ],
+    "sourceTerm": "Skills/Beast_Wolf_Lv2_Desc"
+  },
+  {
+    "id": 14,
+    "beast": "Wolf",
+    "tier": 3,
+    "name": "Ravenous Wolf",
+    "description": "More dismemberments. Heal yourself when picking up body parts",
+    "details": [
+      "Body-part pickup heals 3% of maximum health, rounded up.",
+      "For example, 60 maximum health gives 2 HP. Healing is capped at your health limit.",
+      "Eligible fatal hits can receive an extra dismemberment roll, up to 20%.",
+      "The extra chance decreases in later waves; normal dismemberment rules still apply."
+    ],
+    "sourceTerm": "Skills/Beast_Wolf_Lv3_Desc"
+  },
+  {
+    "id": 15,
+    "beast": "Stag",
+    "tier": 1,
+    "name": "Agile Ibex",
+    "description": "Faster movement. Dodges cost 50% less stamina",
+    "details": [
+      "Base movement speed: +20%.",
+      "Dodge stamina cost: x0.5 before other modifiers."
+    ],
+    "sourceTerm": "Skills/Beast_Stag_Lv1_Desc"
+  },
+  {
+    "id": 16,
+    "beast": "Stag",
+    "tier": 2,
+    "name": "Desperate Ibex",
+    "description": "Faster movement. Permanent vigor when less than 25% health",
+    "details": [
+      "Base movement speed: +20%.",
+      "Low-health Vigor adds +40% movement and an extra 6 stamina/second.",
+      "These movement multipliers combine: 1.2 x 1.4 = 1.68x before other modifiers."
+    ],
+    "sourceTerm": "Skills/Beast_Stag_Lv2_Desc"
+  },
+  {
+    "id": 17,
+    "beast": "Stag",
+    "tier": 3,
+    "name": "Binding Ibex",
+    "description": "Faster movement, longer chains. Chain trips and squeezes do extra damage",
+    "details": [
+      "Base movement speed: +20%.",
+      "Chain length: +25% per Stag III end; two such ends give +56.25%.",
+      "Chain trip/squeeze: +5 base damage per Stag III end.",
+      "Day scaling and damage modifiers still apply."
+    ],
+    "sourceTerm": "Skills/Beast_Stag_Lv3_Desc"
+  },
+  {
+    "id": 18,
+    "beast": "Rhino",
+    "tier": 1,
+    "name": "Armoured Rhino",
+    "description": "Shields last twice as long. 25% less damage taken",
+    "details": [],
+    "sourceTerm": "Skills/Beast_Rhino_Lv1_Desc"
+  },
+  {
+    "id": 19,
+    "beast": "Rhino",
+    "tier": 2,
+    "name": "Stomping Rhino",
+    "description": "Shields last twice as long. Stun duration +50%",
+    "details": [],
+    "sourceTerm": "Skills/Beast_Rhino_Lv2_Desc"
+  },
+  {
+    "id": 20,
+    "beast": "Rhino",
+    "tier": 3,
+    "name": "Reckless Rhino",
+    "description": "Shields last twice as long. Shield Throw (block + throw)",
+    "details": [
+      "Shield projectile base impact damage: 12.",
+      "Base trip duration: 2.5 seconds, plus 1 second against enemies.",
+      "These are projectile base values; throw charge and combat modifiers affect the result."
+    ],
+    "sourceTerm": "Skills/Beast_Rhino_Lv3_Desc"
+  },
+  {
+    "id": 21,
+    "beast": "Monkey",
+    "tier": 1,
+    "name": "Clever Monkey",
+    "description": "Reroll Trainer skills. Start with 2 Skills and an  [Skull2]  affliction",
+    "details": [],
+    "sourceTerm": "Skills/Beast_Monkey_Lv1_Desc"
+  },
+  {
+    "id": 22,
+    "beast": "Monkey",
+    "tier": 2,
+    "name": "Vicious Monkey",
+    "description": "Reroll Trainer skills. +50% unarmed damage. Unarmed special sends enemies flying",
+    "details": [
+      "Unarmed damage: +50%.",
+      "The special launches eligible enemies with a 0.6-second toss duration.",
+      "Blocked or immune targets can prevent the launch; travel distance depends on the toss."
+    ],
+    "sourceTerm": "Skills/Beast_Monkey_Lv2_Desc"
+  },
+  {
+    "id": 23,
+    "beast": "Monkey",
+    "tier": 3,
+    "name": "Curious Monkey",
+    "description": "Reroll Trainer skills. Only one skill choice, but earn a bonus skill every third level",
+    "details": [],
+    "sourceTerm": "Skills/Beast_Monkey_Lv3_Desc"
+  }
+]

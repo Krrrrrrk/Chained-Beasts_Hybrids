@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "status": "design proposal, not implemented or deployed",
+  "selectionRules": {
+    "screen": "existing server-lobby eight-beast, three-row character selector",
+    "altPreview": {"1": 4, "2": 5, "3": 6},
+    "selectionPersistsAfterAltRelease": true,
+    "matchingNativeVariantRequired": true,
+    "partnerBeastUnlockRequired": false,
+    "partnerUnlockRuleStatus": "Selected beast's matching native variant is the stated prerequisite; no extra partner prerequisite proposed.",
+    "experienceRequired": false,
+    "unlockScope": "all beasts, per persistent profile",
+    "historicalWinsCount": false,
+    "unlocks": [
+      {"hybridTier": 4, "difficulty": 4, "difficultyName": "Primus", "requiredNativeVariant": 1},
+      {"hybridTier": 5, "difficulty": 5, "difficultyName": "Tribune", "requiredNativeVariant": 2},
+      {"hybridTier": 6, "difficulty": 6, "difficultyName": "Legate", "requiredNativeVariant": 3}
+    ],
+    "higherDifficultyCountsForLowerTier": "undecided; draft assumes separate matching clears",
+    "selectionStorage": "native beast plus variant 0..2, with an explicit mod-owned hybrid flag"
+  },
+  "designRules": [
+    "Each hybrid retains its owner's matching normal-row perk and adds one perk from a different beast.",
+    "For this first proposal both component perks use the same normal row, so mirrored recipes unlock at the same global milestone.",
+    "Each recipe is available from both component beasts; appearance follows the selected beast.",
+    "Keep native family bonuses and drawbacks. Do not double family passives or silently remove penalties.",
+    "These are fixed alternatives, not cumulative additions to all earlier native perks."
+  ],
+  "pairs": [
+    {"tier": 4, "skills": [0, 12], "style": "Crowd support and body-part fighting", "reason": "Body-part kills can support an aggressive fighting style while eligible Wild poses buff the party.", "watch": "Body-part attacks do not automatically trigger the pose. Native kill, Wild, and pose requirements remain."},
+    {"tier": 4, "skills": [3, 21], "style": "Flexible melee-to-throw opener", "reason": "Melee kills prepare powered throws, while the Monkey opener and trainer rerolls help adapt the build.", "watch": "A utility pairing rather than an automatic proc loop. Keep the two-skull affliction; apply both perks before trainer initialization."},
+    {"tier": 4, "skills": [6, 18], "style": "Defensive bruiser", "reason": "Rhino damage reduction and durable shields complement Bear's on-hit immunity and Fury.", "watch": "Bear's slower movement remains. Blocked hits are not assumed to trigger taking-damage effects."},
+    {"tier": 4, "skills": [9, 15], "style": "Mobile special attacker", "reason": "Panther's special-attack bonus pairs with Ibex movement and cheaper dodges.", "watch": "Panther's health penalty remains; cheaper dodges do not directly raise special-attack damage."},
+    {"tier": 5, "skills": [1, 13], "style": "Economy build", "reason": "Eligible poses and body-part pickups provide separate native coin sources.", "watch": "This is an economy choice rather than a direct damage upgrade. Native result accounting has independent income paths."},
+    {"tier": 5, "skills": [4, 10], "style": "Mobile ambusher", "reason": "Pounces provide repositioning and trips; backstabs prepare powered throws.", "watch": "A trip is not automatically a backstab. The player still needs a valid backstab trigger. Keep Panther's health penalty."},
+    {"tier": 5, "skills": [7, 19], "style": "Blunt-weapon stun control", "reason": "Mighty Bear's blunt damage and brief stuns pair with longer Rhino stuns and shield durability.", "watch": "Enemy immunity and attack rules still apply. Do not promise a permanent stun lock. Bear's slower movement remains."},
+    {"tier": 5, "skills": [16, 22], "style": "Low-health brawler", "reason": "Low-health Vigor supplies mobility and stamina recovery for Monkey unarmed fighting and launching specials.", "watch": "The Vigor benefit is conditional. Monkey trainer rerolls must initialize correctly; this pairing adds no healing."},
+    {"tier": 6, "skills": [2, 23], "style": "Improvised arsenal", "reason": "Crowd-supplied weapons and automatic bonus-skill progression make a deliberately unpredictable run.", "watch": "An adaptation build rather than a precise damage synergy. Clearly describe Curious Monkey's forced training choices."},
+    {"tier": 6, "skills": [5, 20], "style": "Powered shield throw", "reason": "Successful blocks prepare Power Throw; Reckless Rhino supplies the throwable shield.", "watch": "This is the pair the user reported working in the lab. Broader damage, multiplayer, and restore behavior still need their own tests."},
+    {"tier": 6, "skills": [8, 17], "style": "Surviving chain anchor", "reason": "Bear's revival supports a frontline role, while Ibex extends chains and strengthens chain trips and squeezes.", "watch": "Chain value depends on the mode and chain layout. The two family movement factors combine to 0.96 before other effects. Revival is not infinite."},
+    {"tier": 6, "skills": [11, 14], "style": "Sustained melee pressure", "reason": "Repeated hits reward staying on one target; available body-part pickups provide healing between exchanges.", "watch": "Healing requires pickups, not hits. Changing targets resets the repeat-hit bonus. Keep Panther's health penalty."}
+  ],
+  "knownExcludedPairs": [
+    {"skills": [13, 14], "reason": "Bone Collector's native pickup branch suppresses Ravenous healing."},
+    {"family": "Eagle + Eagle", "reason": "Different triggers share one Power Throw status; not a four-times multiplier."}
+  ]
+}

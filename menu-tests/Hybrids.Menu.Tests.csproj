@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net6.0</TargetFramework><OutputType>Exe</OutputType><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Core/*.cs" Link="Production/Core/%(Filename)%(Extension)" />
+    <Compile Include="../DeveloperUnlockMenu.cs" Link="Production/DeveloperUnlockMenu.cs" />
+    <Compile Include="../tests/Support/DeveloperMenuExtensions.cs" Link="Production/DeveloperMenuExtensions.cs" />
+  </ItemGroup>
+</Project>

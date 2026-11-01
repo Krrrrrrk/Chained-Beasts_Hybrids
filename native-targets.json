@@ -1,0 +1,17 @@
+{
+  "RunDataManager::NativeMethodInfoPtr_StartNewRunRpc_Public_Void_Int32_Int32_AscensionLevel_DifficultyConfig_Int32_0": 7727744,
+  "RunDataManager::NativeMethodInfoPtr_RestoreCheckpoint_Public_Void_Checkpoint_0": 7716992,
+  "PlayerData::NativeMethodInfoPtr_SetBeastType_Public_Void_BeastType_Int32_0": 7623712,
+  "PlayerData::NativeMethodInfoPtr_AddSkill_Public_Void_SkillType_Int32_0": 7608176,
+  "GameServerLobby::NativeMethodInfoPtr_BroadcastGameStartingRpc_Private_Void_0": 6841936,
+  "GameServerLobby::NativeMethodInfoPtr_HandleSubmitRpc_Public_Void_ClientIdentifier_0": 6884048,
+  "GameServerLobby::NativeMethodInfoPtr_HandleGameStart_Private_Void_0": 6854480,
+  "GameServerLobby::NativeMethodInfoPtr_HandleCharacterVariantSelectedRpc_Public_Void_ClientIdentifier_Int32_Int32_0": 6850864,
+  "GameServerLobby::NativeMethodInfoPtr_HandleNavigationCharacterConfirmRpc_Public_Void_ClientIdentifier_0": 6858752,
+  "UIGameServerLobby::NativeMethodInfoPtr_HandleCharacterVariantSelected_Public_Void_ClientIdentifier_Int32_Int32_0": 8996000,
+  "UIGameServerLobbyCharacterVariant::NativeMethodInfoPtr_Refresh_Public_Void_UIState_Boolean_0": 8975456,
+  "UIGameServerLobbyCharacterVariant::NativeMethodInfoPtr_HandleSelectedInternal_Protected_Virtual_Void_ClientIdentifier_0": 8975264,
+  "UIGameServerLobbyPage::NativeMethodInfoPtr_Update_Public_Void_0": 8994816,
+  "UIGameServerLobbyPage::NativeMethodInfoPtr_Refresh_Public_Void_UIState_Int32_0": 8988464,
+  "UIGameServerLobbyPage::NativeMethodInfoPtr_OnDestroy_Public_Void_0": 8986432
+}

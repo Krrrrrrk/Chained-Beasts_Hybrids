@@ -1,0 +1,98 @@
+{
+  "0": {
+    "Name": "Proud Lion",
+    "Description": "Posing to a wild crowd after kills gives allies a damage and speed boost"
+  },
+  "1": {
+    "Name": "Regal Lion",
+    "Description": "Posing to a wild crowd after kills makes them throw  [Coin] "
+  },
+  "2": {
+    "Name": "Hoarding Lion",
+    "Description": "Posing to a wild crowd after kills makes them throw weapons"
+  },
+  "3": {
+    "Name": "Lethal Eagle",
+    "Description": "Powerful throw after melee kills"
+  },
+  "4": {
+    "Name": "Silent Eagle",
+    "Description": "Powerful throw after backstabs"
+  },
+  "5": {
+    "Name": "Patient Eagle",
+    "Description": "Powerful throw after blocking"
+  },
+  "6": {
+    "Name": "Hulking Bear",
+    "Description": "More health, less movement speed. Brief invulnerability and fury on taking damage"
+  },
+  "7": {
+    "Name": "Mighty Bear",
+    "Description": "More health, less movement speed. Attacks with blunt weapons deal 20% more damage and briefly stun"
+  },
+  "8": {
+    "Name": "Vengeful Bear",
+    "Description": "More health, less movement speed. Upon dying, revive with 10% health and permanent fury"
+  },
+  "9": {
+    "Name": "Deadly Panther",
+    "Description": "More damage, less health. +50% special attack damage"
+  },
+  "10": {
+    "Name": "Pouncing Panther",
+    "Description": "More damage, less health. Dodge becomes a tripping Pounce"
+  },
+  "11": {
+    "Name": "Unrelenting Panther",
+    "Description": "More damage, less health. Consecutive hits on one enemy increases damage"
+  },
+  "12": {
+    "Name": "Ferocious Wolf",
+    "Description": "More dismemberments. Deal +200% damage with enemy body parts"
+  },
+  "13": {
+    "Name": "Bone Collector Wolf",
+    "Description": "More dismemberments. Earn  [Coin]  when picking up body parts"
+  },
+  "14": {
+    "Name": "Ravenous Wolf",
+    "Description": "More dismemberments. Heal yourself when picking up body parts"
+  },
+  "15": {
+    "Name": "Agile Ibex",
+    "Description": "Faster movement. Dodges cost 50% less stamina"
+  },
+  "16": {
+    "Name": "Desperate Ibex",
+    "Description": "Faster movement. Permanent vigor when less than 25% health"
+  },
+  "17": {
+    "Name": "Binding Ibex",
+    "Description": "Faster movement, longer chains. Chain trips and squeezes do extra damage"
+  },
+  "18": {
+    "Name": "Armoured Rhino",
+    "Description": "Shields last twice as long. 25% less damage taken"
+  },
+  "19": {
+    "Name": "Stomping Rhino",
+    "Description": "Shields last twice as long. Stun duration +50%"
+  },
+  "20": {
+    "Name": "Reckless Rhino",
+    "Description": "Shields last twice as long. Shield Throw (block + throw)"
+  },
+  "21": {
+    "Name": "Clever Monkey",
+    "Description": "Reroll Trainer skills. Start with 2 Skills and an  [Skull2]  affliction"
+  },
+  "22": {
+    "Name": "Vicious Monkey",
+    "Description": "Reroll Trainer skills. +50% unarmed damage. Unarmed special sends enemies flying"
+  },
+  "23": {
+    "Name": "Curious Monkey",
+    "Description": "Reroll Trainer skills. Only one skill choice, but earn a bonus skill every third level"
+  }
+}

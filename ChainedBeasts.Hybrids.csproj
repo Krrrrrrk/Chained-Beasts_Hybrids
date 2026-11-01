@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="build/GameReferences.props" />
+  <PropertyGroup>
+    <AssemblyName>ChainedBeasts.Hybrids</AssemblyName>
+    <RootNamespace>ChainedBeasts.Hybrids</RootNamespace>
+    <Version>0.1.1</Version>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FoundationApiPath Condition="'$(FoundationApiPath)' == ''">$(BepInExRoot)/plugins/ChainedBeasts.ModFoundation.dll</FoundationApiPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="tests/**/*.cs" />
+    <Compile Remove="tests/obj/**/*.cs" />
+    <Compile Remove="integration-tests/**/*.cs" />
+    <Compile Remove="menu-tests/**/*.cs" />
+    <EmbeddedResource Include="native-targets.json" LogicalName="ChainedBeasts.Hybrids.native-targets.json" />
+    <EmbeddedResource Include="descriptions.json" LogicalName="ChainedBeasts.Hybrids.descriptions.json" />
+    <Reference Include="UnityEngine.UIModule"><HintPath>$(BepInExRoot)/interop/UnityEngine.UIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(BepInExRoot)/interop/UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(BepInExRoot)/interop/UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="com.rlabrecque.steamworks.net"><HintPath>$(BepInExRoot)/interop/com.rlabrecque.steamworks.net.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ChainedBeasts.ModFoundation"><HintPath>$(FoundationApiPath)</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

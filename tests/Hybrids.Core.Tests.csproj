@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Core/*.cs" Link="Core/%(Filename)%(Extension)" />
+    <Compile Include="../RunJournal.cs" Link="Integration/RunJournal.cs" />
+    <None Include="../data/approved-roster.json" Link="approved-roster.json" CopyToOutputDirectory="PreserveNewest" />
+    <Using Include="System" />
+    <Using Include="System.IO" />
+  </ItemGroup>
+</Project>

@@ -14,7 +14,7 @@ parser.add_argument('--game-dir',default=os.environ.get('CHAINED_BEASTS_GAME_DIR
 args=parser.parse_args()
 GAME=Path(args.game_dir)
 binary = (GAME / 'GameAssembly.dll').read_bytes()
-assert hashlib.sha256(binary).hexdigest() == 'ba3ef02fa87da4c41bb27d7610539c9578132204f0fb5713833e2ef93415ce29'
+assert hashlib.sha256(binary).hexdigest() == '0deadea3eb9a6ee3bdb69ab7945d4b6dfe40a07be0727edb5cb4dc20c05c3f6e'
 pe = struct.unpack_from('<I', binary, 0x3c)[0]
 count = struct.unpack_from('<H', binary, pe+6)[0]
 optional = pe+24

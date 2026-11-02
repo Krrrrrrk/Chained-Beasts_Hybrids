@@ -1,8 +1,10 @@
-# Chained Beasts Hybrids 0.1.1
+# Chained Beasts Hybrids 0.1.2
+
+Updated for the Chained Beasts 1.0.2 hotfix, Steam build **26369255**. In-game and multiplayer retesting is still pending.
 
 Pick a beast, hold ALT, and choose a fixed two-beast loadout from its IV, V, or VI row. It keeps the appearance of the beast you selected and combines two existing starting perks.
 
-[Download Hybrids 0.1.1](https://github.com/Krrrrrrk/Chained-Beasts_Hybrids/releases/download/v0.1.1/Chained-Beasts-Hybrids-0.1.1.zip) for **Chained Beasts 1.0.2 / Steam build 26231777**, Windows x64. You'll need BepInEx 6 IL2CPP x64 build 791 and **Foundation 1.1.1 or newer** for the F1 panel hook. TC is optional. This is still experimental; the new selector and progression need more gameplay testing.
+[Download Hybrids 0.1.2](https://github.com/Krrrrrrk/Chained-Beasts_Hybrids/releases/download/v0.1.2/Chained-Beasts-Hybrids-0.1.2.zip) for **Chained Beasts 1.0.2 / Steam build 26369255**, Windows x64. You'll need BepInEx 6 IL2CPP x64 build 791 and **Foundation 1.1.2 or newer** for the F1 panel hook. TC is optional. This is still experimental; the new selector and progression need more gameplay testing.
 
 ## Unlocking the new rows
 
@@ -58,7 +60,7 @@ Manual overrides are saved separately from earned victories. Locking a tier pres
 
 1. Close the game and back up your plugins, configs and complete save folder.
 2. Keep your working BepInEx 6 IL2CPP x64 build 791 setup, or install it using the [loader guide](https://github.com/Krrrrrrk/chained-beasts-mod-foundation/blob/main/docs/INSTALLATION.md).
-3. Install [Foundation 1.1.1](https://github.com/Krrrrrrk/chained-beasts-mod-foundation/releases/download/v1.1.1/ChainedBeasts.ModFoundation-1.1.1.zip). If you use TC, get its matching [combined ZIP](https://github.com/Krrrrrrk/chained-beasts-mod-foundation/releases/download/v1.1.1/TermsAndContusions-with-Foundation-1.1.1.zip) instead. The public Foundation 1.1.0 DLL doesn't have the hook Hybrids needs.
+3. Install [Foundation 1.1.2](https://github.com/Krrrrrrk/chained-beasts-mod-foundation/releases/download/v1.1.2/ChainedBeasts.ModFoundation-1.1.2.zip). If you use TC, get its matching [combined ZIP](https://github.com/Krrrrrrk/chained-beasts-mod-foundation/releases/download/v1.1.2/TermsAndContusions-with-Foundation-1.1.2.zip) instead. The public Foundation 1.1.0 DLL doesn't have the hook Hybrids needs.
 4. Extract the Hybrids ZIP into the game folder, merging `BepInEx`. The plugin belongs at `BepInEx/plugins/Hybrids/ChainedBeasts.Hybrids.dll`. Keep one copy of each DLL.
 5. Start Solo and use ALT on character selection. For shared games, everyone needs the same Hybrids and Foundation builds.
 
@@ -93,7 +95,7 @@ Close the game and remove `BepInEx/plugins/Hybrids/ChainedBeasts.Hybrids.dll`. K
 
 ## Build from source
 
-Install a .NET SDK that supports `net6.0`, BepInEx's generated interop assemblies, and Foundation 1.1.1. From this repository:
+Install a .NET SDK that supports `net6.0`, BepInEx's generated interop assemblies, and Foundation 1.1.2. From this repository:
 
 ```powershell
 dotnet build ChainedBeasts.Hybrids.csproj -c Release

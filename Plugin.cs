@@ -7,11 +7,11 @@ using UnityEngine;
 namespace ChainedBeasts.Hybrids;
 
 [BepInPlugin(Id, "Chained Beasts Hybrids", Version)]
-[BepInDependency("local.chainedbeasts.modfoundation", "1.1.1")]
+[BepInDependency("local.chainedbeasts.modfoundation", "1.1.2")]
 public sealed class Plugin : BasePlugin
 {
     public const string Id = "local.chainedbeasts.hybrids";
-    public const string Version = "0.1.1";
+    public const string Version = "0.1.2";
     private Harmony _harmony;
     private HybridController _controller;
     public override void Load()
@@ -31,7 +31,7 @@ public sealed class Plugin : BasePlugin
             _controller = AddComponent<HybridController>();
             HybridRuntime.Active = true;
             DeveloperUnlockMenu.Install();
-            Log.LogInfo("Hybrids 0.1.1 ready. Hold ALT on character selection to preview IV/V/VI. F1 > Progression includes profile unlock controls for Solo testing.");
+            Log.LogInfo("Hybrids 0.1.2 ready. Hold ALT on character selection to preview IV/V/VI. F1 > Progression includes profile unlock controls for Solo testing.");
         }
         catch (Exception e)
         {

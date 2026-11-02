@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AssemblyName>ChainedBeasts.Hybrids</AssemblyName>
     <RootNamespace>ChainedBeasts.Hybrids</RootNamespace>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <ImplicitUsings>enable</ImplicitUsings>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <FoundationApiPath Condition="'$(FoundationApiPath)' == ''">$(BepInExRoot)/plugins/ChainedBeasts.ModFoundation.dll</FoundationApiPath>

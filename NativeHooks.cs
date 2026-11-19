@@ -17,9 +17,9 @@ internal static class NativeHooks
     private static readonly List<(MethodBase Target, long Entry)> Installed = new();
     internal static void Initialize(Harmony harmony)
     {
-        Verify("GameAssembly.dll", "0deadea3eb9a6ee3bdb69ab7945d4b6dfe40a07be0727edb5cb4dc20c05c3f6e");
+        Verify("GameAssembly.dll", "ae48a9c3f8018d3f996c4e692a3736f8b5dcb4ead5c8d0e6e40f3e83f0004a6a");
         Verify(Path.Combine("ChainedBeasts_Data", "il2cpp_data", "Metadata", "global-metadata.dat"),
-            "d3576ba8280b8a8f18a63ec895aa927617fdf255af03971bd0407cd1c2ee5fbc");
+            "06e3ba76bbf74d9d50e849f019ccbe487be47924b7bd0872395aa12072cc9b35");
         using var stream = typeof(NativeHooks).Assembly.GetManifestResourceStream("ChainedBeasts.Hybrids.native-targets.json");
         _expected = JsonSerializer.Deserialize<Dictionary<string, long>>(stream);
         using var process = Process.GetCurrentProcess();

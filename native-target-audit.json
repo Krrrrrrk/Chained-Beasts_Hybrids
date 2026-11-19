@@ -2,120 +2,120 @@
   {
     "type": "RunDataManager",
     "field": "NativeMethodInfoPtr_StartNewRunRpc_Public_Void_Int32_Int32_AscensionLevel_DifficultyConfig_Int32_0",
-    "token": 100668049,
-    "rva": "0x75ea90",
+    "token": 100668212,
+    "rva": "0x775550",
     "shared": 1,
     "bytes": "488bc4488958104489482044"
   },
   {
     "type": "RunDataManager",
     "field": "NativeMethodInfoPtr_RestoreCheckpoint_Public_Void_Checkpoint_0",
-    "token": 100668119,
-    "rva": "0x75c090",
+    "token": 100668282,
+    "rva": "0x772b40",
     "shared": 1,
-    "bytes": "4055564883ec58803de93a79"
+    "bytes": "4055564883ec58803d108279"
   },
   {
     "type": "PlayerData",
     "field": "NativeMethodInfoPtr_SetBeastType_Public_Void_BeastType_Int32_0",
-    "token": 100667878,
-    "rva": "0x745430",
+    "token": 100668032,
+    "rva": "0x74f0e0",
     "shared": 1,
-    "bytes": "4053574883ec38803df0a67a"
+    "bytes": "4053574883ec38803deabb7b"
   },
   {
     "type": "PlayerData",
     "field": "NativeMethodInfoPtr_AddSkill_Public_Void_SkillType_Int32_0",
-    "token": 100667892,
-    "rva": "0x741780",
+    "token": 100668046,
+    "rva": "0x74b430",
     "shared": 1,
     "bytes": "48895c2418565741564881ec"
   },
   {
     "type": "GameServerLobby",
     "field": "NativeMethodInfoPtr_BroadcastGameStartingRpc_Private_Void_0",
-    "token": 100666399,
-    "rva": "0x686660",
+    "token": 100666532,
+    "rva": "0x6878d0",
     "shared": 1,
     "bytes": "48895c2408574881ecc00000"
   },
   {
     "type": "GameServerLobby",
     "field": "NativeMethodInfoPtr_HandleSubmitRpc_Public_Void_ClientIdentifier_0",
-    "token": 100666420,
-    "rva": "0x690ae0",
+    "token": 100666553,
+    "rva": "0x691d50",
     "shared": 1,
     "bytes": "488954241055574157488d6c"
   },
   {
     "type": "GameServerLobby",
     "field": "NativeMethodInfoPtr_HandleGameStart_Private_Void_0",
-    "token": 100666421,
-    "rva": "0x689760",
+    "token": 100666554,
+    "rva": "0x68a9d0",
     "shared": 1,
     "bytes": "48894c240853565741544155"
   },
   {
     "type": "GameServerLobby",
     "field": "NativeMethodInfoPtr_HandleCharacterVariantSelectedRpc_Public_Void_ClientIdentifier_Int32_Int32_0",
-    "token": 100666458,
-    "rva": "0x688940",
+    "token": 100666591,
+    "rva": "0x689bb0",
     "shared": 1,
     "bytes": "488bc4488958184889702048"
   },
   {
     "type": "GameServerLobby",
     "field": "NativeMethodInfoPtr_HandleNavigationCharacterConfirmRpc_Public_Void_ClientIdentifier_0",
-    "token": 100666461,
-    "rva": "0x68a810",
+    "token": 100666594,
+    "rva": "0x68ba80",
     "shared": 1,
     "bytes": "4889542410555356488d6c24"
   },
   {
     "type": "UIGameServerLobby",
     "field": "NativeMethodInfoPtr_HandleCharacterVariantSelected_Public_Void_ClientIdentifier_Int32_Int32_0",
-    "token": 100671068,
-    "rva": "0x894fa0",
+    "token": 100671231,
+    "rva": "0x8baa60",
     "shared": 1,
     "bytes": "4883ec38488b89a801000048"
   },
   {
     "type": "UIGameServerLobbyCharacterVariant",
     "field": "NativeMethodInfoPtr_Refresh_Public_Void_UIState_Boolean_0",
-    "token": 100671090,
-    "rva": "0x88ff60",
+    "token": 100671253,
+    "rva": "0x8b5a40",
     "shared": 1,
-    "bytes": "405355564883ec50803d3f03"
+    "bytes": "405355564883ec50803ddf5a"
   },
   {
     "type": "UIGameServerLobbyCharacterVariant",
     "field": "NativeMethodInfoPtr_HandleSelectedInternal_Protected_Virtual_Void_ClientIdentifier_0",
-    "token": 100671092,
-    "rva": "0x88fea0",
+    "token": 100671255,
+    "rva": "0x8b5980",
     "shared": 1,
     "bytes": "4883ec38488bc1488b89d800"
   },
   {
     "type": "UIGameServerLobbyPage",
     "field": "NativeMethodInfoPtr_Update_Public_Void_0",
-    "token": 100671123,
-    "rva": "0x894b00",
+    "token": 100671286,
+    "rva": "0x8ba5e0",
     "shared": 1,
-    "bytes": "40534883ec60803dacb76504"
+    "bytes": "40534883ec60803d4c0f6504"
   },
   {
     "type": "UIGameServerLobbyPage",
     "field": "NativeMethodInfoPtr_Refresh_Public_Void_UIState_Int32_0",
-    "token": 100671124,
-    "rva": "0x893230",
+    "token": 100671287,
+    "rva": "0x8b8d10",
     "shared": 1,
     "bytes": "4489442418535741564881ec"
   },
   {
     "type": "UIGameServerLobbyPage",
     "field": "NativeMethodInfoPtr_OnDestroy_Public_Void_0",
-    "token": 100671133,
-    "rva": "0x892a40",
+    "token": 100671296,
+    "rva": "0x8b8520",
     "shared": 1,
     "bytes": "48895c2408574883ec20803d"
   }
